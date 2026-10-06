@@ -1,0 +1,25 @@
+# --- Credentials and secrets ---
+*.json.key
+*credentials*.json
+*service-account*.json
+.env
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl.bak
+crash.log
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Data files ---
+*.csv
+*.csv.gz
+*.parquet
+ny_taxi_postgres_data/
